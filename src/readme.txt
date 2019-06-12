@@ -22,3 +22,6 @@
 六、$ git push -u origin master
     上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，
     后面就可以不加任何参数使用git push了
+七、打包命令、启动命令
+    mvn clean install -Dmaven.test.skip=true
+    java -jar xxx.jar
