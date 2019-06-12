@@ -25,3 +25,6 @@
 七、打包命令、启动命令
     mvn clean install -Dmaven.test.skip=true
     java -jar xxx.jar
+八、自我保护模式关闭
+      server:
+        enable-self-preservation: false
