@@ -19,3 +19,6 @@
         service-url:
           defaultZone: http://localhost:8761/eureka/
         register-with-eureka: false
+六、$ git push -u origin master
+    上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，
+    后面就可以不加任何参数使用git push了
